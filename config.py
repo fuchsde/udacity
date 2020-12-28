@@ -10,7 +10,7 @@ class Config(object):
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'udactiy-sql-server.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'udacity-project-sql'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'udactiy-sql-server/udacity-project-sql'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udacity-dennis'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Dec2812!'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
